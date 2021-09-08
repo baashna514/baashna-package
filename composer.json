@@ -1,0 +1,15 @@
+{
+    "name": "webeasy/baashna-package",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moin Abbas",
+            "email": "moinabbas80@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"webeasy\\HelloWorld\\": "src/"}
+    }
+}
